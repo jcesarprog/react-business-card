@@ -1,0 +1,49 @@
+.main {
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: .5rem;
+        // width: 100%;
+        &-name {
+            color: #fff;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+
+        }
+        &-sub {
+            color: #F3BF99;
+            font-size: 1.3rem;
+            letter-spacing: 2px;
+        }
+        &-site {
+            margin-top: .5rem;
+            color: #F5F5F5;
+            font-size: 1rem;
+        }
+        &-btns {
+            margin-top:1rem;
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    
+    &__info {
+        margin-block:3rem;
+        color:#fff;
+        padding-inline: 3rem;
+        p {
+            font-size: 1rem;
+            padding-block: 1rem;
+        }
+        &-about{
+            font-size: 1.6rem;
+            margin-bottom: 2rem;
+        }
+        &-interest {
+            font-size: 1.6rem;
+        }
+    }
+}
